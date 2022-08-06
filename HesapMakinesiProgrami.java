@@ -38,13 +38,6 @@ public class HesapMakinesiProgrami {
        }
        
        
-       
-       
-       
-       
-       
-       
-       
       
        /*
         
