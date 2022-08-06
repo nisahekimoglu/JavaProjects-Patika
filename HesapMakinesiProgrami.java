@@ -8,39 +8,8 @@ public class HesapMakinesiProgrami {
        
        int  n1 = k.nextInt();
        int  n2 = k.nextInt();
-       
-       
-       System.out.println("hangi islemi yapmak istersiniz ?");
-       System.out.println(1 + " toplama islemi");
-       System.out.println(2 + " cikarma islemi");
-       System.out.println(3 + " carpma islemi");
-       System.out.println(4 + " bolme islemi");
-       
-       int  secim = k.nextInt();
-     
-       if (secim == 1) {
-    	   System.out.println("Sonuc: " + n1+n2);
-       }
-       else if (secim ==2) {
-    	   System.out.println("Sonuc: " + (n1-n2));  
-       }
-       
-       else if (secim == 3) {
-    	   System.out.println("Sonuc: " + n1*n2);  
-       }
-       
-       else if (secim == 4) {
-    	   System.out.println("Sonuc: "+ n1/n2);  
-       }
-       
-       else {
-    	   System.out.println("Yanlis secim yaptiniz ");  
-       }
-       
-       
-      
-       /*
-        
+			
+		
        System.out.println("hangi islemi yapmak istersiniz ?");
        System.out.println("1 - toplama islemi");
        System.out.println("2 - cikarma islemi");
@@ -72,9 +41,37 @@ public class HesapMakinesiProgrami {
     	  break;
     	   
        }
-      */
        
+       /*
+       System.out.println("hangi islemi yapmak istersiniz ?");
+       System.out.println(1 + " toplama islemi");
+       System.out.println(2 + " cikarma islemi");
+       System.out.println(3 + " carpma islemi");
+       System.out.println(4 + " bolme islemi");
        
+       int  secim = k.nextInt();
+     
+       if (secim == 1) {
+    	   System.out.println("Sonuc: " + n1+n2);
+       }
+       else if (secim ==2) {
+    	   System.out.println("Sonuc: " + (n1-n2));  
+       }
+       
+       else if (secim == 3) {
+    	   System.out.println("Sonuc: " + n1*n2);  
+       }
+       
+       else if (secim == 4) {
+    	   System.out.println("Sonuc: "+ n1/n2);  
+       }
+       
+       else {
+    	   System.out.println("Yanlis secim yaptiniz ");  
+       }
+       */
+       
+      
 		
 		
 	//Videodaki hesap makinesini switch-case kullanarak yapınız.
