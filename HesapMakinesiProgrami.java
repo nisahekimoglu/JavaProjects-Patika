@@ -13,7 +13,7 @@ public class HesapMakinesiProgrami {
        System.out.println("hangi islemi yapmak istersiniz ?");
        System.out.println("1 - toplama islemi");
        System.out.println("2 - cikarma islemi");
-       System.out.println("3 - carpmaislemi");
+       System.out.println("3 - carpma islemi");
        System.out.println("4 - bolme islemi");
        
      int islem = k.nextInt();;
