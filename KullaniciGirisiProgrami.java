@@ -27,11 +27,15 @@ public class KullaniciGirisiProgrami {
      	     
      	    String kullCevap =k.nextLine();
         	 
-            String cevap = "evet";
-         	 boolean sonuc = cevap == kullCevap;
+             
+                 String cevap = "evet";
+         	 boolean sonuc = cevap.equals(kullCevap);
+         	 String sonuc2 = sonuc ? "Yeni sifrenizi giriniz" : "sistem hatasi tekrar deneyiniz" ;
+         
         	 
-        	 System.out.println("Yeni sifrenizi giriniz");
+        	 System.out.println(sonuc2);
         	 String yeniSifre = k.nextLine();
+      	   
       	   
         	 
         	     if (yeniSifre.equals(kullaniciSifre)) {
@@ -48,13 +52,9 @@ public class KullaniciGirisiProgrami {
       	 else {
       		System.out.println("Parola dogru giris basarili ");  
       		
-           }
+         }
       	 
-      
-      	 
-      	 
-      
-
+    
 
 /*
  * Kullanici adi ve sifeyi kontrol eden programi yapiniz
@@ -63,6 +63,8 @@ public class KullaniciGirisiProgrami {
  * aynı olmaması gerektiğini kontrol edip , şifreler aynı ise ekrana
  * "Şifre oluşturulamadı, lütfen başka şifre giriniz." sorun yoksa "Şifre oluşturuldu" yazan programı yazınız.
  */
+		
+		
 	}
 
 }
