@@ -23,15 +23,9 @@ public class KullaniciGirisiProgrami {
          }
          
          else if (kullaniciAdi.equals(admin) && !kullaniciSifre.equals(parola)) {
-        	 System.out.println("Parola yanlis , sifirlamak ister misiniz ? "); 
-        	
-     	     System.out.println("evet/ hayir" );
+        	 System.out.println("Parola yanlis , sifirlamak ister misiniz ?\n evet/hayir "); 
      	     
      	    String kullCevap =k.nextLine();
-         	
-            
-        	
-        	// System.out.println(kullCevap);
         	 
             String cevap = "evet";
          	 boolean sonuc = cevap == kullCevap;
@@ -59,18 +53,7 @@ public class KullaniciGirisiProgrami {
       
       	 
       	 
-      	 
-      	 
-      	 
-      	 
       
-         
-
-    
-
-
-
-
 
 
 /*
