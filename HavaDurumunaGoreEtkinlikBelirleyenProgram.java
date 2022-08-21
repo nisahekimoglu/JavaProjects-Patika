@@ -7,7 +7,7 @@ public class HavaDurumunaGoreEtkinlikBelirleyenProgram {
  System.out.print("Bugun hava kac derece : ");
  double derece = k.nextInt();
     
-    if (derece>= 25) {
+    if (derece>= 25 && derece <50) {
     	System.out.println("Yuzebilirsiniz");
     }
     else if (derece >=15 && derece <25) {
