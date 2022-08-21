@@ -32,9 +32,11 @@ if (mat>0 && mat<=100 ) {
     double ort = top / 5;
     
     if (ort >= 55) {
+	  System.out.println("Ortalamaniz : " + ort );
 	  System.out.println("Sinifi gectiniz");
     }
     else {
+	  System.out.println("Ortalamaniz : " + ort );
 	  System.out.println("Kaldiniz");
     }
 }
