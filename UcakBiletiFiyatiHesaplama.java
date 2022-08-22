@@ -17,7 +17,7 @@ public class UcakBiletiFiyatiHesaplama {
 		
 	 if(yoltip== 1 || yoltip==2) {
 		 System.out.print("1 yada 2"); 
-		 int yoltip2 = k.nextInt(); 
+		 yoltip = k.nextInt(); 
 		 if (yoltip ==2) {
 			  double yolIndirim = ucret* 0.20 ;
 			  double bilet= ucret - yolIndirim;
@@ -55,40 +55,7 @@ public class UcakBiletiFiyatiHesaplama {
 	   	System.out.println("Yol tipini secmediniz.");
 	 }
 				
-	     
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
+	 	
+    }
 
 }
