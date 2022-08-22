@@ -17,7 +17,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=21) {
 			System.out.println("oglak burcu");	
 		}
-		else if (gun<=22 && gun<=31){
+		else if (gun>=22 && gun<=31){
 			System.out.println("kova burcu");		
 		}
 		else {
@@ -31,7 +31,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=19) {
 			System.out.println("kova burcu");	
 		}
-		else if (gun<=20 && gun<=28){
+		else if (gun>=20 && gun<=28){
 			System.out.println("balik burcu");		
 		}
 		else {
@@ -45,7 +45,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=20) {
 			System.out.println("balik burcu");	
 		}
-		else if (gun<=21 && gun<=31){
+		else if (gun>=21 && gun<=31){
 			System.out.println("koc burcu");		
 		}
 		else {
@@ -59,7 +59,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=20) {
 			System.out.println("koc burcu");	
 		}
-		else if (gun<=21 && gun<=30){
+		else if (gun>=21 && gun<=30){
 			System.out.println("boga burcu");		
 		}
 		else {
@@ -74,7 +74,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=21) {
 			System.out.println("boga burcu");	
 		}
-		else if (gun<=22 && gun<=31){
+		else if (gun>=22 && gun<=31){
 			System.out.println("ikizler burcu");		
 		}
 		else {
@@ -88,7 +88,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=22) {
 			System.out.println("ikizler burcu");	
 		}
-		else if (gun<=23 && gun<=30){
+		else if (gun>=23 && gun<=30){
 			System.out.println("yengec burcu");		
 		}
 		else {
@@ -103,7 +103,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=22) {
 			System.out.println("yengec burcu");	
 		}
-		else if (gun<=23 && gun<=31){
+		else if (gun>=23 && gun<=31){
 			System.out.println("aslan burcu");		
 		}
 		else {
@@ -116,7 +116,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=22) {
 			System.out.println("aslan burcu");	
 		}
-		else if (gun<=23 && gun<=31){
+		else if (gun>=23 && gun<=31){
 			System.out.println("basak burcu");		
 		}
 		else {
@@ -131,7 +131,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=22) {
 			System.out.println("basak burcu");	
 		}
-		else if (gun<=23 && gun<=30){
+		else if (gun>=23 && gun<=30){
 			System.out.println("terazi burcu");		
 		}
 		else {
@@ -145,7 +145,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=22) {
 			System.out.println("terazi burcu");	
 		}
-		else if (gun<=23 && gun<=31){
+		else if (gun>=23 && gun<=31){
 			System.out.println("akrep burcu");		
 		}
 		else {
@@ -160,7 +160,7 @@ public class BurcHesaplayanProgram {
 		if (gun>= 1 && gun<=21) {
 			System.out.println("akrep burcu");	
 		}
-		else if (gun<=22 && gun<=30){
+		else if (gun>=22 && gun<=30){
 			System.out.println("yay burcu");		
 		}
 		else {
@@ -176,7 +176,7 @@ public class BurcHesaplayanProgram {
 		if (gun<= 1 && gun<=21) {
 			System.out.println("yay burcu");	
 		}
-		else if (gun<=22 && gun<=31){
+		else if (gun>=22 && gun<=31){
 			System.out.println("oglak burcu");		
 		}
 		else {
@@ -190,6 +190,7 @@ public class BurcHesaplayanProgram {
 		
 		System.out.println("Girdiginiz ay bilgisi hatali lutfen tekrar deneyiniz");
 	}
+	
 	
 	
 	
