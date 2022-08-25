@@ -39,20 +39,6 @@ public class GirilenSayiyaKadarkiCiftSayilariBulanProgram {
 		
 		
 		
-		
-				
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
