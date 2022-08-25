@@ -43,25 +43,6 @@ public class TekSayilariveDordunKatlariOlanSayilariBulanProgram {
     */
   
    
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 	}
 
 }
